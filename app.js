@@ -15,7 +15,7 @@ const Favourite = require("./routes/favourite");
 const Cart = require("./routes/cart");
 const Review = require("./routes/review");
 const Orders = require("./routes/order");
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: 'https://willowy-sorbet-f83898.netlify.app/' }));
 app.use(express.json());
 
 // Serve static files from the public/images directory
