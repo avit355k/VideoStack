@@ -15,7 +15,8 @@ const Favourite = require("./routes/favourite");
 const Cart = require("./routes/cart");
 const Review = require("./routes/review");
 const Orders = require("./routes/order");
-app.use(cors({ origin: 'https://voluble-concha-b6a1df.netlify.app/' }));
+const Search = require("./routes/search");
+app.use(cors({ origin: 'http://localhost:5173' }));
 app.use(express.json());
 
 // Serve static files from the public/images directory
@@ -27,6 +28,7 @@ app.use("/api/v1", Favourite);
 app.use("/api/v1", Cart);
 app.use("/api/v1", Review);
 app.use("/api/v1", Orders);
+app.use("/api/v1", Search);
 
 
 

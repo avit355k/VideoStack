@@ -164,5 +164,24 @@ router.get("/search-video", async (req, res) => {
     }
 });
 
+// Route to fetch top 10 rated videos
+router.get("/top-rated-videos", async (req, res) => {
+    try {
+        // Fetch top 10 videos sorted by average rating in descending order
+        const videos = await Video.find()
+            .sort({ avgrating: -1, reviewCount: -1 }) // Sort by highest rating
+            .limit(10); // Limit to top 10
+
+        return res.json({
+            status: "Success",
+            data: videos,
+        });
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({ message: "Internal Server Error" });
+    }
+});
 
 module.exports = router;
+
+
