@@ -16,7 +16,7 @@ const Cart = require("./routes/cart");
 const Review = require("./routes/review");
 const Orders = require("./routes/order");
 const Search = require("./routes/search");
-app.use(cors({ origin: 'reliable-sundae-b9a3e3.netlify.app' }));
+app.use(cors({ origin: 'https://reliable-sundae-b9a3e3.netlify.app' }));
 app.use(express.json());
 
 // Serve static files from the public/images directory
