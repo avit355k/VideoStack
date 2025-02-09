@@ -42,15 +42,22 @@ Ensure you have the following installed:
    cd client
    npm install
    ```
+   ```sh
    cd ../server
    npm install
+   ```
 3. Start the development server:
+
 **Run the backend:**
+```sh
 cd server
 npm run dev
+```
 **Run the frontend:**
+```sh
 cd client
 npm run dev
+```
 4. Open your browser and visit:
    ```sh
    http://localhost:3000
