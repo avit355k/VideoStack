@@ -43,10 +43,10 @@
 ## Screenshots
 
 ### Homepage
-![Homepage](![Image](https://github.com/user-attachments/assets/2245ff8b-0be7-4721-971c-808e3cf85689))
+![Homepage](https://github.com/user-attachments/assets/2245ff8b-0be7-4721-971c-808e3cf85689)
 
-### CD/DVD Listings
-![CD/DVD Listings]([Screenshot%202025-02-08%20215458.png](https://github.com/user-attachments/assets/5930db78-ab19-404b-8a74-a9301edad0b7))
+### CD/DVD Listings      
+![CD/DVD Listings](https://github.com/user-attachments/assets/5930db78-ab19-404b-8a74-a9301edad0b7)
 
 ## Contact
 For more information or questions, feel free to reach out:
