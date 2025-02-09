@@ -2,7 +2,7 @@
 # VideoStack - CD DVD Store Website
 
 ## 📌 Overview
-[VideoStack](https://videostack-ecommerce.netlify.app) is an online CD/DVD store where users can browse, order, and rate products. The platform includes features such as adding items to a cart, marking favorites, and leaving star ratings and reviews.
+[VideoStack](https://videostack-ecommerce.netlify.app/) is an online CD/DVD store where users can browse, order, and rate products. The platform includes features such as adding items to a cart, marking favorites, and leaving star ratings and reviews.
 
 
 
@@ -20,7 +20,7 @@
 - **Hosting**: Netlify(Frontend), render(Backend)
 ## Demo
 
-[Visit VideoStack](https://videostack-ecommerce.netlify.app)
+[Visit VideoStack](https://videostack-ecommerce.netlify.app/)
 
 
 ## ## 🔧 Setup & Installation
