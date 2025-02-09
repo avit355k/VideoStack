@@ -24,6 +24,14 @@
 
 
 ## ## 🔧 Setup & Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Git](https://git-scm.com/)
+- A package manager: **npm** or **yarn**
+- 
 1. Clone the repository:
    ```sh
    git clone https://github.com/avit355k/videostack.git
@@ -31,12 +39,18 @@
    ```
 2. Install dependencies:
    ```sh
+   cd client
    npm install
    ```
+   cd ../server
+   npm install
 3. Start the development server:
-   ```sh
-   npm run dev
-   ```
+**Run the backend:**
+cd server
+npm run dev
+**Run the frontend:**
+cd client
+npm run dev
 4. Open your browser and visit:
    ```sh
    http://localhost:3000
